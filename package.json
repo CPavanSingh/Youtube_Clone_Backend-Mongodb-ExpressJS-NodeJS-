@@ -2,9 +2,10 @@
   "name": "youtube_backend_clone",
   "version": "1.0.0",
   "description": "A youtube backend clone (Mongodb, NodeJS, ExpressJS)",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "youtube",
@@ -12,5 +13,8 @@
     "backend"
   ],
   "author": "Pavan Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
