@@ -43,7 +43,7 @@ const userSchema = new Schema({
         trim:true,
         maxlength:50
     },
-    refreshToken:{
+    refreshtoken:{
         type:String,
     },
 },{timestamps:true});
